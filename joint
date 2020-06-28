@@ -1,0 +1,12 @@
+import sys
+
+import os
+
+def test():
+
+    dir_path = os.path.join(os.path.dirname(__file__),'test')
+    print(dir_path)
+    os.system('touch %s'%dir_path)
+
+if __name__ == '__main__':
+    test()
